@@ -19,11 +19,17 @@
     <header class="main-head">
         <nav>
             <h1 id="logo"> Danny Cortez</h1>
+           
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#Work">Work</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="burger">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
         </nav>
     </header>
     <main>
@@ -41,13 +47,68 @@
                 <img src="/img/plant1.png" alt="" class="plant1 plant">
                 <img src="/img/plant2.png" alt="" class="plant2 plant">
             </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-image">
+                <h5>MINIMAL</h5>
+                <img src="/img/about-image.png" alt="portrait-pic">
+            </div>
+            <div class="about-text flex" id="work">
+                <h2>Danny Cortez</h2>
+                <div class="about-life">
+                    <h3>My Life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio maxime similique, numquam placeat libero rerum dolor fuga quasi mollitia.</p>
 
-
+                </div>
+                <div class="about-work">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio maxime similique, numquam placeat libero rerum dolor fuga quasi mollitia.</p>
+                    
+                </div>
+                <div class="about-contact">
+                    <h3>Get in Touch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio maxime similique, numquam placeat libero rerum dolor fuga quasi mollitia.</p>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <header class="gallery-head">
+                <h2>See More</h2>
+                <p>My Gallery</p>
+            </header>
+            <img  class="gallery1" src="/img/gallery-1.jpg" alt="man in suit">
+            <img  class="gallery2" src="/img/gallery-2.jpg" alt="lady in coat">
+            <img  class="gallery3" src="/img/gallery-3.jpg" alt="lady in t-shirt">
+            <img  class="gallery4" src="/img/gallery-4.jpg" alt="lady in jacket">
+            
+        </section>
+        <section class="contact" id="contact">
+            <div class="form-wrapper flex">
+                <h2>Get in <br> 
+                    <span>touch</span> 
+                </h2>
+                <form action="">
+                    <label for="email"> Your Email:</label>
+                    <input type="email"  id="email required">
+                    <button type="submit" >Submit</button>
+                </form>
+            </div>
+            <img src="/img/contact-image.jpg" alt="cortez">
         </section>
     </main>
-
+    <footer>
+        <h4>Danny Cortez &copy; 2021 </h4>
+        <ul>
+            <li><a href="#"><img src="/img/youtube-symbol 1.svg" alt=""></a></li>
+            <li><a href="#"><img src="/img/instagram 1.svg" alt=""></a></li>
+            <li><a href="#"><img src="/img/twitter 1.svg" alt=""></a></li>
+        </ul>
+    </footer>
+<!-- <script src="/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
+<script src="/app.js"></script>
 </body>
 </html>
